@@ -7,14 +7,30 @@
     "start": "node server.js" 
   },
   "dependencies": {
+    "airplayer": "^2.0.0",
+    "buffer-from": "^1.0.0",
+    "clivas": "^0.2.0",
+    "inquirer": "^5.0.1",
+    "keypress": "^0.2.1",
+    "mime": "^2.2.0",
+    "network-address": "^1.1.0",
+    "numeral": "^2.0.6",
+    "open": "0.0.5",
+    "optimist": "^0.6.1",
+    "parse-torrent": "^5.4.0",
+    "pump": "^2.0.0",
+    "range-parser": "^1.0.0",
+    "rc": "^1.1.6",
+    "torrent-stream": "^1.0.1",
+    "winreg": "1.2.4",
+    "xtend": "^4.0.0"
     "fastify": "^4.28.1",
     "axios": "^1.7.7",
     "lodash": "^4.17.21",
-    "sharp": "^0.33.5"
+    "sharp": "0.28.2"
   },
   "engines": {
-    "node": "20.16.0",
-    "yarn": "1.22.22"
+    "node": "20.17.0"
   },
   "type": "module"
 }
