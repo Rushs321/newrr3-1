@@ -11,5 +11,5 @@ const app = fastify({
 
 const PORT = process.env.PORT || 8080;
 
-fastify.get('/', processRequest);
-fastify.listen({host: '0.0.0.0', port: PORT });
+app.get('/', processRequest);
+app.listen({host: '0.0.0.0', port: PORT });
