@@ -1,9 +1,8 @@
 {
-  "name": "myapp",
-  "version": "2.0",
-  "description": "an app",
-  "author": "Team1",
-  "license":"AGPL-3.0-only",
+  "name": "javi-app-one",
+  "version": "1.9.0",
+  "description": "a server app",
+  "author": "Kiralt",
   "scripts": {
     "start": "node server.js" 
   },
@@ -14,8 +13,8 @@
     "sharp": "^0.33.5"
   },
   "engines": {
-    "node": "20.x",
-    "yarn": "1.x"
+    "node": "20.16.0",
+    "yarn": "1.22.22"
   },
   "type": "module"
 }
