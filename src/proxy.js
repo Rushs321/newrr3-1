@@ -35,7 +35,7 @@ export async function processRequest(request, reply) {
 
         Object.entries(hdrs).forEach(([key, value]) => reply.header(key, value));
         
-        return reply.send(`bandwidth-hero-proxy`);
+        return reply.send(`jekdkd`);
     }
 
     request.params.url = decodeURIComponent(url);
